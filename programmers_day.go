@@ -17,8 +17,8 @@ import (
 func main() {
 	daynum := time.Now().YearDay()
 	if daynum == 256 {
-		fmt.Printf("Happy programmer's day!! %d, %b, 2^8\n", daynum, daynum)
+		fmt.Printf("Happy programmer's day!!\n")
 	} else {
-		fmt.Printf("Happy shitty normal day!")
+		fmt.Printf("Happy shitty normal day!!\n")
 	}
 }
